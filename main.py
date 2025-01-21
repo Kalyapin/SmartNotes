@@ -196,6 +196,7 @@ def search_note_with_tag_function():
             search_result.append(note_name)
     notes_list_widget.clear()
     notes_list_widget.addItems(search_result)
+    tags_list_widget.clear()
 
 def clear_search():
     notes_list_widget.clear()
